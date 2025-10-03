@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random Word</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slider-row">
+            <input type="range" id="level-slider" min="1" max="10" value="1">
+            <span id="min-label">1</span>
+            <span id="max-label">10</span>
+        </div>
+        <div class="word-display" id="word-display">RANDOM WORD</div>
+        <div class="input-row">
+            <input type="text" id="input-1" placeholder="...">
+            <input type="text" id="input-2" placeholder="...">
+            <input type="text" id="input-3" placeholder="...">
+        </div>
+        <button onclick="fetchWord()">Get Word</button>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
