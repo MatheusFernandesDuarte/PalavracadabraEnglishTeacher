@@ -1,0 +1,53 @@
+body {
+    background: #222;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    border: 2px solid #fff;
+    padding: 2em;
+    width: 480px;
+    margin: 2em auto;
+    border-radius: 20px;
+    background: #111;
+}
+
+.slider-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+input[type="range"] {
+    width: 200px;
+}
+
+.word-display {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.input-row input {
+    display: block;
+    width: 90%;
+    margin: 0.5em auto;
+    font-size: 1.1em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 1em auto 0 auto;
+    padding: 0.75em 2em;
+    background: #444;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
